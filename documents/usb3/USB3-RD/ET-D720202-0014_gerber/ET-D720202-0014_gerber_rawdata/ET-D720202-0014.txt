@@ -1,0 +1,41 @@
+                          ET-D720202-0014.txt
+
+    PCB NAME　          　ET-D720202-0014
+
+
+    1. Photograph data specification
+
+　　FORMAT 　             RS-274X
+
+    Coordinates           ABS(absolute)
+
+    CHARACTER CODE        ASCII
+
+    Unit 　　　　   　    mm(XXXX.XXX)                                        
+
+    EOB CODE              *
+
+    ZERO DATA SUPPRESS    LEADING = 0
+
+    MIRROR                Altogether nothing
+
+
+    2. DataFileName
+
+    ET-D720202-0014.txt              This document              
+
+    ET-D720202-0014_L1.gbx           Layout(Layer1--Top)　　　　　　
+    ET-D720202-0014_L2.gbx           Layout(Layer2--GND)　　　　　　
+    ET-D720202-0014_L3.gbx           Layout(Layer3--Vcc)　　　　　　
+    ET-D720202-0014_L4.gbx           Layout(Layer4--Bottom)   　　　　 
+    ET-D720202-0014_L1s.gbx          Silk screen(Layer1-Top)       
+    ET-D720202-0014_L1r.gbx          Solder resist(Layer1-Top)     
+    ET-D720202-0014_L4r.gbx          Solder resist(Layer4-Bottom)   
+    ET-D720202-0014_L1m.gbx          Metal mask(Layer1-Top) 
+  　ET-D720202-0014_outline.gbx      Outline for a router         
+
+    ET-D720202-0014.holeflash        Hole data--flashed           
+    ET-D720202-0014_hole.txt         hole layout listing           
+
+
+　　　　　　　　　　　　　　　　　　 Data of Draw up   2011.07.06

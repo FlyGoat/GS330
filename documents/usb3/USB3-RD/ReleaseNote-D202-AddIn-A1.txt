@@ -1,0 +1,62 @@
+***************************************************************************
+********************** uPD720202 Design Resources Release ****************
+***************************************************************************
+ Release Note
+
+ Renesas Electronics Corporation
+ uPD720202 USB 3.0 Host Controller Evaluation Board
+ PCI Express(TM) Add-in Card Design Kit
+ ET-D720202-0014
+
+ Kit Rev  : A1
+ Released : Jul. 10, 2012
+ Copyright (C) Renesas Electronics Corporation 2012 All Rights Reserved
+***************************************************************************
+
+---------------------------------------------------------------------------
+Table of Contents
+---------------------------------------------------------------------------
+1. Summary
+2. Engineering Change Notice
+3. Includes list of the kit
+4. History
+
+---------------------------------------------------------------------------
+1. Summary
+---------------------------------------------------------------------------
+ This release note explaina Design Kit of ET-D720202-0014 for USB 3.0
+ Host Controller uPD720202.
+ This design supports USB wake-up function. 
+ If you do not need to support this wake-up function, please refer the 
+ schematics including this Design Kit to remove some circuits.
+
+---------------------------------------------------------------------------
+2. Engineering Change Notice
+---------------------------------------------------------------------------
+<<DesignKit Rev.A1>>
+- First release.
+---------------------------------------------------------------------------
+3. Includes list of the kit.
+---------------------------------------------------------------------------
+ This kit includes following files;
+
+-"<root>" Folder
+ -Notice.pdf
+    Disclaimer is described.
+ - ET-D720202-0014_powermap.pdf
+    Power map of ET-D720202-0014
+-"ET-D720202-0014_gerber" Folder
+ includes gerber raw data, gerber PDF images, PCB Stackup, layout PDF 
+ images and the parts mounting information
+-"ET-D720202-0014_layout" Folder
+ includes allegro BRD file
+-"ET-D720202-0014_schematic" Folder
+ includes OrCAD schematic data, PDF images and BOM list
+
+---------------------------------------------------------------------------
+4. History
+---------------------------------------------------------------------------
+Jul. 10, 2012 Release Rev.A1, released for the general web,
+---------------------------------------------------------------------------
+Aug. 26, 2011 Release Rev.A0, first release,
+---------------------------------------------------------------------------

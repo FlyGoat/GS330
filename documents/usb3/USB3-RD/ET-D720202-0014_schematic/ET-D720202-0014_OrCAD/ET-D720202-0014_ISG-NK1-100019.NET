@@ -1,0 +1,310 @@
+%PART
+10uF/X5R        C1
+1uF             C10
+1uF             C11
+10uF            C12
+10uF            C13
+10uF            C14
+10uF            C15
+10uF            C16
+150uF           C17
+150uF           C18
+10pF            C19
+10uF/X5R        C2
+68nF            C20
+10uF/X5R        C21
+4.7uF           C22
+0.1uF           C23
+0.1uF           C24
+0.1uF           C25
+0.1uF           C26
+0.1uF           C27
+0.1uF           C28
+8pF/CH          C29
+22uF/X5R        C3
+8pF/CH          C30
+0.1uF           C31
+0.1uF           C32
+0.1uF           C33
+0.1uF           C34
+0.1uF           C35
+0.1uF           C36
+1uF             C37
+1uF             C38
+22uF/X5R        C4
+1200pF          C40
+100pF           C41
+0.1uF           C42
+0.1uF           C43
+0.1uF           C44
+0.1uF           C45
+0.1uF           C46
+0.1uF           C47
+10nF            C48
+10nF            C49
+22uF/X5R        C5
+10nF            C50
+10nF            C51
+10nF            C52
+10nF            C53
+10nF            C54
+10nF            C55
+10nF            C56
+10nF            C57
+10nF            C58
+10nF            C59
+22uF/X5R        C6
+10nF            C60
+1uF             C61
+1uF             C62
+10nF            C63
+10nF            C64
+10uF/X5R        C7
+1uF             C8
+1uF             C9
+USB3.0 receptacle  CN1
+USB3.0 receptacle  CN2
+LED             D1
+LED             D2
+RB051M-2Y       D3
+1SS294          D4
+RB060M-30       D5
+RB060M-30       D6
+RB060M-30       D7
+RB060M-30       D8
+open(16V/1.5A)  F1
+open(16V/1.5A)  F2
+32V/3.15A       F3
+BLM21PG600SN1   FB11
+BLM21PG600SN1   FB12
+BLM21PG600SN1   FB13
+15-24-4441(for ATX peripheral power)  JP1
+PCIE-CARD-EDGE  JP2
+93763-M(PTEC_SATApwr15pin)  JP3
+10uH 1.9A/65mOhmDC  L1
+3.3uH 2A/70mOhmDC  L2
+1.5uH 1.8A/40mOhmDC  L3
+2SA1576A        Q1
+2SC4081         Q2
+2SB1188         Q3
+2SK3018         Q4
+2SC4081         Q5
+RSH070N05       Q6
+10K             R1
+open(4.7K)      R10
+open(6.8K)      R11
+open(6.8K)      R12
+10K             R13
+470             R14
+47K             R15
+47K             R16
+47K             R17
+10K             R18
+220             R19
+10K             R2
+10K             R20
+75K(1%)         R21
+15K(1%)         R22
+15k             R23
+180K(1%)        R24
+120K(1%)        R25
+120K(1%)        R26
+0/2A            R27
+0/2A            R28
+0/2A            R29
+10K             R3
+1.6K(1%)        R30
+0               R31
+0               R32
+0               R33
+0/2A            R34
+10K             R35
+0/2A            R36
+680             R37
+470k            R38
+10K(1%)         R39
+10K             R4
+10K(1%)         R40
+10K(1%)         R41
+82K(1%)         R42
+470k(1%)        R43
+1K              R5
+1K              R6
+51K(1%)         R7
+68K(1%)         R8
+open(4.7K)      R9
+phi-0.5mm TH    TP1
+phi-0.5mm TH    TP10
+phi-0.5mm TH    TP11
+phi-0.5mm TH    TP2
+phi-0.5mm TH    TP3
+phi-0.5mm TH    TP4
+phi-0.5mm TH    TP5
+phi-0.5mm TH    TP6
+phi-0.5mm TH    TP7
+phi-0.5mm TH    TP8
+phi-0.5mm TH    TP9
+uPD720202       U1
+ZTL431AFTA      U10
+MX25L5121EMC-20G  U2
+AP2191SG-13     U3
+AP2191SG-13     U4
+RT8058GQW       U5
+AP7215-33YG     U6
+BD9322EFJ       U7
+SC4503TSKTRT    U8
+AP331AWG-7      U9
+Crystal 24MHz +/-100ppm  Y1
+%NET
+N18388                  C36-1 F3-2 C7-1 JP1-1
+*                       JP3-15 JP3-13 JP3-14
+N18474                  R22-2 R21-1 U7-6
+N19012                  U7-1 C33-1
+N244505                 C20-1 R23-1 U8-4
+N201340                 D6-1 F3-1
+N18066                  U5-9 U5-7 U5-10 U5-12
+*                       C8-1 C1-1 Q6-6 Q6-7
+*                       Q3-2 C22-1 R23-2 U8-5
+*                       L3-1 Q6-5 U5-11 Q6-8
+N520390                 R17-1 Q1-2
+N18110                  R36-1 Q4-3 Q3-3
+N534817                 R39-1 U9-4 R43-2 R38-2
+SPISO                   U1-13 U2-2 R15-1
+N08859                  C26-1 U1-29
+N07173                  JP2-A7 JP2-A6
+SPISI                   U1-16 U2-5
+N08855                  CN1-3 U1-35
+N07059                  R4-1 U1-11 C11-1 D4-1
+N08851                  CN1-6 U1-31
+SPICSB                  U2-1 U1-14
+N07229                  U1-5 C28-2
+N10693                  U2-3 R3-1
+N07795                  Y1-3 C30-1 R37-1
+N09125                  U1-46 R35-1 TP1-1
+N07637                  C29-1 Y1-1 U1-24
+N09013                  JP2-A1 JP2-B17
+N07341                  U1-7 JP2-B14
+N10131                  C28-1 JP2-A17
+N08343                  CN2-1 FB13-2
+N07225                  C27-2 U1-4
+N10073                  U1-2 JP2-A14
+N08947                  C25-1 U1-28
+N07205                  U1-23 R37-2
+N08943                  CN1-9 C25-2
+N10077                  U1-1 JP2-A13
+N06983                  C34-1 R34-1 JP2-A9 C14-1
+*                       JP2-B8 JP2-A10
+N07357                  U1-8 JP2-B15
+N09871                  U1-47 TP10-1 JP2-A11
+N07957                  R33-1 U1-48
+N09833                  R33-2 JP2-B11
+N08623                  C23-1 U1-37
+N08619                  CN2-9 C23-2
+N08615                  CN2-8 C24-2
+SPISCK                  U1-15 U2-6
+N08589                  C24-1 U1-38
+N08585                  CN2-3 U1-44
+N08581                  CN2-6 U1-40
+N08577                  CN2-5 U1-41
+N08847                  CN1-5 U1-32
+N565269                 R19-1 U10-3 R40-2 TP11-1
+*                       R41-2
+N09427                  C27-1 JP2-A16
+N08833                  CN1-1 FB12-2
+N07345                  U1-10 TP9-1
+A3.3V                   C45-1 C46-1 C15-1 FB11-2
+*                       U1-25 C60-2 C59-1 U1-3
+N567439                 U10-2 R41-1 R42-2
+GND_EARTH               CN2-C R31-2 R32-2 CN1-C
+N08719                  CN1-2 U1-36
+N08939                  CN1-8 C26-2
+N07421                  CN2-2 U1-45
+N58911                  R30-1 U1-26
+N20414                  U5-4 R8-2 R7-1
+N18092                  U7-3 C2-1 TP7-1 R29-2
+*                       Q1-1 C61-1
+VCCCH1                  C18-1 U3-8 C13-1 R6-2
+*                       F1-1 R10-2 U3-7 U3-6
+*                       FB12-1
+VCCCH2                  C12-1 F2-1 R5-2 C17-1
+*                       R9-2 U4-8 U4-7 U4-6
+*                       FB13-1
+3.3VAUX                 R36-2 TP6-1 JP2-B10
+N18572                  C40-1 R16-1 C41-1
+OCI2B                   U4-5 R2-1 R11-2 R9-1
+*                       U1-17
+N18334                  Q2-2 R20-2 Q5-3
+1.05V                   R28-2 TP5-1 C56-2 U1-33
+*                       U1-42 C58-2 C57-2 U1-39
+*                       C55-2 U1-30 U1-21 C43-1
+*                       C47-1 C44-1 U1-9 C53-2
+*                       U1-6 C54-2
+N20286                  L2-1 U5-13 U5-14 U5-15
+N18644                  U7-7 R16-2
+N17980                  TP8-1 D5-2 D6-2 R29-1
+N18222                  Q2-3 R17-2
+3.3V                    Q6-3 Q6-1 Q6-2 R20-1
+*                       R18-1 R34-2
+N18544                  U7-4 D7-2 L1-1 C32-2
+PPON2                   U4-4 U1-18
+N18032                  R13-2 Q1-3 Q4-2 Q6-4
+3.3V_DUAL               R1-2 TP2-1 R27-2 R2-2
+*                       R4-2 U2-7 C31-1 R15-2
+*                       R35-2 R3-2 FB11-1 U2-8
+*                       C50-2 U1-22 U1-43 C52-2
+*                       U1-34 C51-2 C42-1 C48-1
+*                       U1-12 C49-2 D4-3
+N19246                  R14-2 Q4-1 Q3-1
+OCI1B                   U3-5 R1-1 R12-2 R10-1
+*                       U1-19
+N18486                  C6-1 D8-1 C62-1 R21-2
+*                       L1-2 C5-1
+N19912                  C4-1 TP4-1 R28-1 C3-1
+*                       R7-2 L2-2
+N19948                  U6-3 C38-1 R27-1 TP3-1
+N18840                  U7-2 C32-1
+5V                      U6-TAB U6-2 C37-1 R19-2
+*                       U9-5 C63-1 C19-1 D3-2
+*                       C21-1 D8-2 R24-2 R39-2
+*                       U3-2 F1-2 C9-1 F2-2
+*                       C10-1 U4-2 U4-3 U3-3
+12V                     D5-1 JP2-A3 JP2-A2 JP2-B1
+*                       JP2-B2 JP2-B3 C35-1 C16-1
+PPON1                   U3-4 U1-20
+GND                     JP3-4 JP3-5 JP3-6 C21-2
+*                       C36-2 JP1-2 U4-1 C4-2
+*                       C3-2 U9-2 U5-5 U5-17
+*                       C8-2 C1-2 U10-1 C63-2
+*                       R11-1 C9-2 C10-2 R12-1
+*                       U5-3 Q2-1 R8-1 C64-2
+*                       U7-5 C40-2 C41-2 C2-2
+*                       C61-2 C33-2 C17-2 C12-2
+*                       D2-K U3-1 Q5-1 U8-2
+*                       C20-2 C22-2 R26-1 JP1-3
+*                       C7-2 C38-2 U6-1 R25-1
+*                       R13-1 U5-1 U5-2 C37-2
+*                       D7-1 C5-2 C62-2 R22-1
+*                       C6-2 D1-K C13-2 C18-2
+*                       R14-1 JP3-10 JP3-12 U7-T-PAD
+*                       R42-1 C35-2 CN1-4 CN1-7
+*                       C16-2 R32-1 U1-27 U1-GND PAD
+*                       U2-4 C31-2 CN2-7 CN2-4
+*                       R31-1 C29-2 Y1-4 C30-2
+*                       JP2-B13 JP2-B18 JP2-B16 JP2-B7
+*                       Y1-2 JP2-B4 C15-2 C11-2
+*                       R30-2 C34-2 C14-2 JP2-A18
+*                       JP2-A12 JP2-A4 JP2-A15 C49-1
+*                       C42-2 C60-1 C59-2 C46-2
+*                       C56-1 C58-1 C43-2 C57-1
+*                       C55-1 C44-2 C54-1 C45-2
+*                       C47-2 C53-1 C52-1 C48-2
+*                       C50-1 C51-1
+N326200                 R5-1 D2-A
+N327260                 D1-A R6-1
+N244581                 L3-2 D3-1 U8-1
+N244489                 U8-3 R26-2 R25-2 R24-1
+*                       C19-2
+N645225                 Q5-2 R38-1
+N593372                 U9-3 R40-1 R43-1
+N553417                 C64-1 U9-1 R18-2
+$

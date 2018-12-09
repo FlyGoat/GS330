@@ -1,0 +1,481 @@
+\t (00:00:33) allegro_free_viewer 16.5 S006 (v16-5-13S) i86
+\t (00:00:33)     Journal start - Tue Feb 07 17:15:41 2012
+\t (00:00:33)         Host=DHMPC045 User=j-yamaya Pid=1612 CPUs=2
+\t (00:00:33) 
+\d (00:00:33) Database opened: D:/ÅûPROJECTÅû/USB3.0/ÅyuPD720201_202Åz/ReferenceBoard/720202_Add-in/USB3-202-DK0014-A0/ET-D720202-0014_layout/ET-D720202-0014.brd
+\i (00:00:36) color192 
+\i (00:00:37) setwindow cvf.dialog
+\i (00:00:37) cvf layer_mode
+\i (00:00:38) cvf layer_tree_item 'Package Geometry'
+\i (00:00:39) cvf layer_tree_item 'Embedded Geomerty'
+\i (00:00:39) cvf layer_tree_item 'Package Geometry'
+\i (00:00:42) cvf layer_tree_item 'Areas'
+\i (00:00:43) cvf layer_tree_item 'Board Geometry'
+\i (00:00:45) cvf layers_visible board_geometry/work1 FALSE
+\i (00:00:46) cvf cancel
+\i (00:00:48) setwindow pcb
+\i (00:00:48) color192 
+\i (00:00:50) setwindow cvf.dialog
+\i (00:00:50) cvf layers_visible board_geometry/work1 FALSE
+\i (00:00:51) cvf apply
+\i (00:00:51) cvf okay
+\i (00:00:52) setwindow pcb
+\i (00:00:52) grid toggle 
+\i (00:00:55) setwindow form.vf_vis
+\i (00:00:55) FORM vf_vis 4 all_colorvisible YES 
+\i (00:01:04) FORM vf_vis 1 etch_colorvisible 1 
+\i (00:01:05) FORM vf_vis 1 all_colorvisible YES 
+\i (00:01:06) FORM vf_vis 3 all_colorvisible YES 
+\i (00:01:07) FORM vf_vis 2 all_colorvisible YES 
+\i (00:01:12) FORM vf_vis 1 etch_colorvisible color 84 
+\i (00:01:15) FORM vf_vis 1 via_colorvisible color 84 
+\i (00:01:17) FORM vf_vis 1 pin_colorvisible color 84 
+\i (00:01:19) FORM vf_vis 4 etch_colorvisible color 34 
+\i (00:01:21) FORM vf_vis 4 via_colorvisible color 34 
+\i (00:01:23) FORM vf_vis 4 pin_colorvisible color 35 
+\i (00:01:45) FORM vf_vis 4 pin_colorvisible color 34 
+\i (00:01:47) FORM vf_vis 3 etch_colorvisible color 35 
+\i (00:01:55) FORM vf_vis 3 etch_colorvisible color 84 
+\i (00:01:57) FORM vf_vis 3 via_colorvisible color 84 
+\i (00:01:59) FORM vf_vis 3 pin_colorvisible color 84 
+\i (00:02:02) FORM vf_vis 1 etch_colorvisible color 35 
+\i (00:02:04) FORM vf_vis 1 via_colorvisible color 35 
+\i (00:02:06) FORM vf_vis 1 pin_colorvisible color 35 
+\i (00:02:09) FORM vf_vis 5 all_colorvisible YES 
+\i (00:02:11) FORM vf_vis 5 drc_colorvisible 0 
+\i (00:02:11) FORM vf_vis 5 all_colorvisible YES 
+\i (00:02:17) FORM vf_vis 2 etch_colorvisible color 35 
+\i (00:02:18) FORM vf_vis 2 via_colorvisible color 35 
+\i (00:02:21) FORM vf_vis 2 pin_colorvisible color 35 
+\i (00:02:25) FORM vf_vis 1 etch_colorvisible color 93 
+\i (00:02:45) FORM vf_vis 1 via_colorvisible color 93 
+\i (00:02:47) FORM vf_vis 1 pin_colorvisible color 93 
+\i (00:02:52) FORM vf_vis 5 all_colorvisible NO 
+\i (00:02:53) FORM vf_vis 3 all_colorvisible NO 
+\i (00:02:54) FORM vf_vis 2 all_colorvisible NO 
+\i (00:02:55) setwindow pcb
+\i (00:02:55) zoom in 1 
+\i (00:02:55) setwindow pcb
+\i (00:02:55) zoom in 25.3079 44.1945
+\i (00:02:55) trapsize 7265
+\i (00:02:55) zoom in 1 
+\i (00:02:55) setwindow pcb
+\i (00:02:55) zoom in 44.9222 36.9300
+\i (00:02:55) trapsize 3632
+\i (00:02:55) zoom in 1 
+\i (00:02:55) setwindow pcb
+\i (00:02:55) zoom in 47.0290 36.7121
+\i (00:02:55) trapsize 1816
+\i (00:02:59) assign color 
+\i (00:03:02) setwindow form.mini
+\i (00:03:02) FORM mini color25 1 
+\i (00:03:04) setwindow pcb
+\i (00:03:04) pick grid 61.3402 41.3614
+\t (00:03:04) last pick:  61.3500  41.3500
+\t (00:03:04) Net "Gnd" assigned color.
+\i (00:03:06) setwindow form.vf_vis
+\i (00:03:06) FORM vf_vis 4 all_colorvisible NO 
+\i (00:03:09) setwindow form.mini
+\i (00:03:09) FORM mini color18 1 
+\i (00:03:10) setwindow pcb
+\i (00:03:10) pick grid 60.6137 35.5498
+\t (00:03:10) last pick:  60.6000  35.5500
+\t (00:03:10) Net "N07205" assigned color.
+\i (00:03:11) pick grid 60.0689 36.2399
+\t (00:03:11) last pick:  60.0500  36.2500
+\t (00:03:11) Net "N07637" assigned color.
+\i (00:03:12) pick grid 63.4469 36.3852
+\t (00:03:12) last pick:  63.4500  36.4000
+\t (00:03:12) Net "N07795" assigned color.
+\i (00:03:15) pick grid 55.0564 37.0754
+\t (00:03:15) last pick:  55.0500  37.1000
+\t (00:03:15) Net "N58911" assigned color.
+\i (00:03:19) setwindow form.mini
+\i (00:03:19) FORM mini color7 1 
+\i (00:03:23) setwindow pcb
+\i (00:03:23) pick grid 50.9156 37.4023
+\t (00:03:23) last pick:  50.9000  37.4000
+\t (00:03:23) Net "3_3V_Dual" assigned color.
+\i (00:03:25) setwindow form.mini
+\i (00:03:25) FORM mini color13 1 
+\i (00:03:27) setwindow pcb
+\i (00:03:27) pick grid 53.0586 37.2570
+\t (00:03:27) last pick:  53.0500  37.2500
+\t (00:03:27) Net "1_05V" assigned color.
+\i (00:03:32) setwindow form.mini
+\i (00:03:32) FORM mini color10 1 
+\i (00:03:38) FORM mini color30 1 
+\i (00:03:40) setwindow pcb
+\i (00:03:40) pick grid 57.7079 36.7848
+\t (00:03:40) last pick:  57.7000  36.8000
+\t (00:03:40) Net "A3_3V" assigned color.
+\i (00:03:44) setwindow form.mini
+\i (00:03:44) FORM mini color14 1 
+\i (00:03:46) setwindow pcb
+\i (00:03:46) pick grid 53.4218 26.9413
+\t (00:03:46) last pick:  53.4000  26.9500
+\t (00:03:46) Net "N07341" assigned color.
+\i (00:03:46) pick grid 53.6761 26.9413
+\t (00:03:46) last pick:  53.7000  26.9500
+\t (00:03:46) Net "N07357" assigned color.
+\i (00:03:48) pick grid 52.1869 26.9413
+\t (00:03:48) last pick:  52.2000  26.9500
+\t (00:03:48) Net "N07229" assigned color.
+\i (00:03:48) pick grid 51.9326 26.9413
+\t (00:03:48) last pick:  51.9500  26.9500
+\t (00:03:48) Net "N07225" assigned color.
+\i (00:03:55) setwindow form.mini
+\i (00:03:55) FORM mini color10 1 
+\i (00:03:56) setwindow pcb
+\i (00:03:56) zoom out 1 
+\i (00:03:56) setwindow pcb
+\i (00:03:56) zoom out 48.6635 37.2206
+\i (00:03:56) trapsize 3632
+\i (00:03:56) zoom out 1 
+\i (00:03:56) setwindow pcb
+\i (00:03:56) zoom out 48.6636 37.1480
+\i (00:03:56) trapsize 7265
+\i (00:03:57) roam x -96 
+\i (00:03:57) roam x -96
+\i (00:03:58) zoom in 1 
+\i (00:03:58) setwindow pcb
+\i (00:03:58) zoom in 22.4020 37.2934
+\i (00:03:58) trapsize 3632
+\i (00:03:58) zoom in 1 
+\i (00:03:58) setwindow pcb
+\i (00:03:58) zoom in 22.4021 37.2934
+\i (00:03:58) trapsize 1816
+\i (00:03:59) pick grid 22.9106 39.3638
+\t (00:03:59) last pick:  22.9000  39.3500
+\t (00:03:59) Net "N08847" assigned color.
+\i (00:04:00) pick grid 22.9106 39.7997
+\t (00:04:00) last pick:  22.9000  39.8000
+\t (00:04:00) Net "N08851" assigned color.
+\i (00:04:01) pick grid 23.1286 41.9791
+\t (00:04:01) last pick:  23.1500  42.0000
+\t (00:04:01) Net "N08939" assigned color.
+\i (00:04:01) pick grid 23.1286 42.3423
+\t (00:04:01) last pick:  23.1500  42.3500
+\t (00:04:01) Net "N08943" assigned color.
+\i (00:04:02) pick grid 27.4147 42.2697
+\t (00:04:02) last pick:  27.4000  42.2500
+\t (00:04:02) Net "N08947" assigned color.
+\i (00:04:02) pick grid 27.4873 42.0154
+\t (00:04:02) last pick:  27.5000  42.0000
+\t (00:04:02) Net "N08859" assigned color.
+\i (00:04:04) pick grid 26.9062 22.4738
+\t (00:04:04) last pick:  26.9000  22.4500
+\t (00:04:04) Net "N08623" assigned color.
+\i (00:04:04) pick grid 26.9062 22.3285
+\t (00:04:04) last pick:  26.9000  22.3500
+\t (00:04:04) Net "N08623" assigned color.
+\i (00:04:05) pick grid 26.9062 22.0379
+\t (00:04:05) last pick:  26.9000  22.0500
+\t (00:04:05) Net "N08589" assigned color.
+\i (00:04:05) pick grid 23.7097 22.4011
+\t (00:04:05) last pick:  23.7000  22.4000
+\t (00:04:05) Net "N08619" assigned color.
+\i (00:04:06) pick grid 23.6734 21.8926
+\t (00:04:06) last pick:  23.6500  21.9000
+\t (00:04:06) Net "N08615" assigned color.
+\i (00:04:07) pick grid 24.0003 19.7859
+\t (00:04:07) last pick:  24.0000  19.8000
+\t (00:04:07) Net "N08581" assigned color.
+\i (00:04:07) pick grid 24.1456 19.4953
+\t (00:04:07) last pick:  24.1500  19.5000
+\t (00:04:07) Net "N08577" assigned color.
+\i (00:04:11) setwindow form.mini
+\i (00:04:11) FORM mini color9 1 
+\i (00:04:12) setwindow pcb
+\i (00:04:12) pick grid 35.6599 37.2571
+\t (00:04:12) last pick:  35.6500  37.2500
+\t (00:04:12) Net "N08719" assigned color.
+\i (00:04:13) pick grid 35.6963 37.6203
+\t (00:04:13) last pick:  35.7000  37.6000
+\t (00:04:13) Net "N08855" assigned color.
+\i (00:04:14) pick grid 35.7689 23.6724
+\t (00:04:14) last pick:  35.7500  23.6500
+\t (00:04:14) Net "N08585" assigned color.
+\i (00:04:15) pick grid 35.8779 23.1276
+\t (00:04:15) last pick:  35.9000  23.1500
+\t (00:04:15) Net "N07421" assigned color.
+\i (00:04:16) zoom out 1 
+\i (00:04:16) setwindow pcb
+\i (00:04:16) zoom out 35.4420 36.5670
+\i (00:04:16) trapsize 3632
+\i (00:04:18) roam x 96 
+\i (00:04:18) roam x 96
+\i (00:04:18) roam x 96 
+\i (00:04:18) roam x 96
+\i (00:04:19) roam x 96 
+\i (00:04:19) roam x 96
+\i (00:04:19) roam x 96 
+\i (00:04:19) roam x 96
+\i (00:04:24) roam x 96 
+\i (00:04:24) roam x 96
+\i (00:04:24) roam x 96 
+\i (00:04:24) roam x 96
+\i (00:04:29) setwindow form.vf_vis
+\i (00:04:29) FORM vf_vis 1 all_colorvisible NO 
+\i (00:04:29) FORM vf_vis 4 all_colorvisible YES 
+\i (00:04:31) setwindow pcb
+\i (00:04:31) zoom in 1 
+\i (00:04:31) setwindow pcb
+\i (00:04:31) zoom in 54.6566 33.2253
+\i (00:04:31) trapsize 1816
+\i (00:05:06) show measure 
+\i (00:13:14) setwindow form.vf_vis
+\i (00:13:14) FORM vf_vis 1 all_colorvisible YES 
+\i (00:13:15) FORM vf_vis 4 all_colorvisible NO 
+\i (00:13:16) setwindow pcb
+\i (00:13:16) zoom out 1 
+\i (00:13:16) setwindow pcb
+\i (00:13:16) zoom out 53.7486 38.7827
+\i (00:13:16) trapsize 3632
+\i (00:13:19) zoom points 
+\t (00:13:19) Pick 1st corner of the new window.
+\i (00:13:21) drag_start 41.0355 43.2141
+\i (00:13:24) drag_stop 65.0086 25.8518
+\i (00:13:24) trapsize 1258
+\i (00:13:48) capture image 
+\i (00:15:43) fillin "D:\ÅûPROJECTÅû\USB3.0\LayoutReview\document\materials\202_lsi_top.jpg"
+\i (00:15:43) cd "D:\ÅûPROJECTÅû\USB3.0\LayoutReview\document\materials"
+\i (00:15:43) capture image "D:/ÅûPROJECTÅû/USB3.0/LayoutReview/document/materials/202_lsi_top.jpg" 
+\i (00:15:44) setwindow form.vf_vis
+\i (00:15:44) FORM vf_vis 4 all_colorvisible YES 
+\i (00:15:45) FORM vf_vis 1 all_colorvisible NO 
+\i (00:15:48) setwindow pcb
+\i (00:15:48) capture image 
+\i (00:15:56) fillin "202_GNDvia_bttm.jpg"
+\i (00:15:56) capture image "D:/ÅûPROJECTÅû/USB3.0/LayoutReview/document/materials/202_GNDvia_bttm.jpg" 
+\i (00:16:08) setwindow form.vf_vis
+\i (00:16:08) FORM vf_vis 1 all_colorvisible YES 
+\i (00:16:10) FORM vf_vis 4 all_colorvisible NO 
+\i (00:16:47) setwindow pcb
+\i (00:16:47) zoom out 1 
+\i (00:16:47) setwindow pcb
+\i (00:16:47) zoom out 62.3673 35.0135
+\i (00:16:47) trapsize 2516
+\i (00:16:48) zoom in 1 
+\i (00:16:48) setwindow pcb
+\i (00:16:48) zoom in 62.3673 35.0135
+\i (00:16:48) trapsize 1258
+\i (00:35:07) zoom out 1 
+\i (00:35:07) setwindow pcb
+\i (00:35:07) zoom out 53.0095 32.4225
+\i (00:35:07) trapsize 2516
+\i (00:35:57) capture image 
+\i (00:36:04) fillin "202_lsi_widely_top.jpg"
+\i (00:36:04) capture image "D:/ÅûPROJECTÅû/USB3.0/LayoutReview/document/materials/202_lsi_widely_top.jpg" 
+\i (03:17:34) setwindow form.vf_vis
+\i (03:17:34) FORM vf_vis 4 all_colorvisible YES 
+\i (03:17:35) FORM vf_vis 1 all_colorvisible NO 
+\i (03:17:36) setwindow pcb
+\i (03:17:36) zoom in 1 
+\i (03:17:36) setwindow pcb
+\i (03:17:36) zoom in 54.0659 32.1709
+\i (03:17:36) trapsize 1258
+\i (03:17:36) zoom in 1 
+\i (03:17:36) setwindow pcb
+\i (03:17:36) zoom in 54.0659 32.3973
+\i (03:17:36) trapsize 629
+\i (03:17:54) zoom out 1 
+\i (03:17:54) setwindow pcb
+\i (03:17:54) zoom out 57.8015 34.6738
+\i (03:17:54) trapsize 1258
+\i (03:17:54) zoom out 1 
+\i (03:17:54) setwindow pcb
+\i (03:17:54) zoom out 57.5248 34.3720
+\i (03:17:54) trapsize 2516
+\i (03:17:54) zoom out 1 
+\i (03:17:54) setwindow pcb
+\i (03:17:54) zoom out 57.5247 34.5734
+\i (03:17:54) trapsize 5031
+\i (03:17:56) color192 
+\i (03:17:57) setwindow cvf.dialog
+\i (03:17:57) cvf layer_mode
+\i (03:17:58) cvf layer_tree_item 'Board Geometry'
+\i (03:18:00) cvf layers_visible board_geometry/work1 TRUE
+\i (03:18:01) cvf okay
+\i (03:18:03) setwindow pcb
+\i (03:18:03) roam x 96 
+\i (03:18:03) roam x 96
+\i (03:18:03) roam x 96 
+\i (03:18:03) roam x 96
+\i (03:18:03) roam x 96 
+\i (03:18:03) roam x 96
+\i (03:18:03) roam x 96 
+\i (03:18:03) roam x 96
+\i (03:18:03) roam x 96 
+\i (03:18:03) roam x 96
+\i (03:18:03) roam x 96 
+\i (03:18:03) roam x 96
+\i (03:18:03) roam x 96 
+\i (03:18:03) roam x 96
+\i (03:18:03) roam x 96 
+\i (03:18:03) roam x 96
+\i (03:18:04) roam x 96 
+\i (03:18:04) roam x 96
+\i (03:18:04) roam x 96 
+\i (03:18:04) roam x 96
+\i (03:18:04) roam x 96 
+\i (03:18:04) roam x 96
+\i (03:18:04) roam y -96 
+\i (03:18:04) roam y -96
+\i (03:18:04) roam y -96 
+\i (03:18:04) roam y -96
+\i (03:18:04) roam x 96 
+\i (03:18:04) roam x 96
+\i (03:18:05) roam x 96 
+\i (03:18:05) roam x 96
+\i (03:18:06) roam y -96 
+\i (03:18:06) roam y -96
+\i (03:18:07) roam y -96 
+\i (03:18:07) roam y -96
+\i (03:18:07) roam y 96 
+\i (03:18:07) roam y 96
+\i (03:18:07) roam y 96 
+\i (03:18:07) roam y 96
+\i (03:18:07) roam y 96 
+\i (03:18:07) roam y 96
+\i (03:18:08) roam y 96 
+\i (03:18:08) roam y 96
+\i (03:18:08) roam y -96 
+\i (03:18:08) roam y -96
+\i (03:18:08) roam y -96 
+\i (03:18:08) roam y -96
+\i (03:18:08) roam x -96 
+\i (03:18:08) roam x -96
+\i (03:18:09) roam x -96 
+\i (03:18:09) roam x -96
+\i (03:18:09) roam x 96 
+\i (03:18:09) roam x 96
+\i (03:18:09) roam x 96 
+\i (03:18:09) roam x 96
+\i (03:18:10) roam x -96 
+\i (03:18:10) roam x -96
+\i (03:18:10) roam x -96 
+\i (03:18:10) roam x -96
+\i (03:18:10) roam x -96 
+\i (03:18:10) roam x -96
+\i (03:18:11) roam x -96 
+\i (03:18:11) roam x -96
+\i (03:18:11) roam x -96 
+\i (03:18:11) roam x -96
+\i (03:18:11) roam x -96 
+\i (03:18:11) roam x -96
+\i (03:18:11) roam x -96 
+\i (03:18:11) roam x -96
+\i (03:18:11) roam x -96 
+\i (03:18:11) roam x -96
+\i (03:18:11) roam x -96 
+\i (03:18:11) roam x -96
+\i (03:18:12) zoom in 1 
+\i (03:18:12) setwindow pcb
+\i (03:18:12) zoom in 55.6436 35.9081
+\i (03:18:12) trapsize 2516
+\i (03:18:12) zoom in 1 
+\i (03:18:12) setwindow pcb
+\i (03:18:12) zoom in 54.5368 34.7510
+\i (03:18:12) trapsize 1258
+\i (03:18:13) roam x 96 
+\i (03:18:13) roam x 96
+\i (03:18:13) roam x 96 
+\i (03:18:13) roam x 96
+\i (03:18:13) roam x 96 
+\i (03:18:13) roam x 96
+\i (03:18:13) roam x 96 
+\i (03:18:13) roam x 96
+\i (03:18:13) roam x 96 
+\i (03:18:13) roam x 96
+\i (03:18:13) roam x 96 
+\i (03:18:13) roam x 96
+\i (03:18:13) roam x 96 
+\i (03:18:13) roam x 96
+\i (03:18:14) roam x 96 
+\i (03:18:14) roam x 96
+\i (03:18:14) roam x 96 
+\i (03:18:14) roam x 96
+\i (03:18:14) roam x 96 
+\i (03:18:14) roam x 96
+\i (03:18:14) roam x 96 
+\i (03:18:14) roam x 96
+\i (03:18:14) roam x 96 
+\i (03:18:14) roam x 96
+\i (03:18:14) roam x 96 
+\i (03:18:14) roam x 96
+\i (03:18:14) roam x 96 
+\i (03:18:14) roam x 96
+\i (03:18:14) roam x 96 
+\i (03:18:14) roam x 96
+\i (03:18:14) roam x 96 
+\i (03:18:14) roam x 96
+\i (03:18:14) roam x 96 
+\i (03:18:14) roam x 96
+\i (03:18:14) roam x 96 
+\i (03:18:14) roam x 96
+\i (03:18:14) roam x 96 
+\i (03:18:14) roam x 96
+\i (03:18:14) roam x 96 
+\i (03:18:14) roam x 96
+\i (03:18:14) roam x 96 
+\i (03:18:14) roam x 96
+\i (03:18:14) roam x 96 
+\i (03:18:14) roam x 96
+\i (03:18:14) roam x 96 
+\i (03:18:14) roam x 96
+\i (03:18:14) roam x 96 
+\i (03:18:14) roam x 96
+\i (03:18:14) roam x 96 
+\i (03:18:14) roam x 96
+\i (03:18:15) roam x 96 
+\i (03:18:15) roam x 96
+\i (03:18:15) zoom out 1 
+\i (03:18:15) setwindow pcb
+\i (03:18:15) zoom out 122.0285 34.8013
+\i (03:18:15) trapsize 2516
+\i (03:18:15) zoom out 1 
+\i (03:18:15) setwindow pcb
+\i (03:18:15) zoom out 122.0787 34.8517
+\i (03:18:15) trapsize 5031
+\i (03:18:15) roam x 96 
+\i (03:18:15) roam x 96
+\i (03:18:15) roam x 96 
+\i (03:18:15) roam x 96
+\i (03:18:16) roam x 96 
+\i (03:18:16) roam x 96
+\i (03:18:17) zoom in 1 
+\i (03:18:17) setwindow pcb
+\i (03:18:17) zoom in 151.0330 36.2605
+\i (03:18:17) trapsize 2516
+\i (03:18:17) roam y -96 
+\i (03:18:17) roam y -96
+\i (03:18:17) roam y -96 
+\i (03:18:17) roam y -96
+\i (03:18:18) roam y -96 
+\i (03:18:18) roam y -96
+\i (03:18:18) roam x 96 
+\i (03:18:18) roam x 96
+\i (03:18:18) roam x 96 
+\i (03:18:18) roam x 96
+\i (03:18:18) roam x 96 
+\i (03:18:18) roam x 96
+\i (03:18:19) roam x 96 
+\i (03:18:19) roam x 96
+\i (03:18:19) roam x 96 
+\i (03:18:19) roam x 96
+\i (03:18:19) roam x -96 
+\i (03:18:19) roam x -96
+\i (03:18:20) roam x -96 
+\i (03:18:20) roam x -96
+\i (03:18:20) roam x -96 
+\i (03:18:20) roam x -96
+\i (03:18:20) roam x -96 
+\i (03:18:20) roam x -96
+\i (03:18:21) roam x -96 
+\i (03:18:21) roam x -96
+\i (04:03:37) pick grid 134.2795 67.0506
+\t (04:03:37) last pick:  134.2750  67.0500
+\i (04:03:38) zoom out 1 
+\i (04:03:38) setwindow pcb
+\i (04:0

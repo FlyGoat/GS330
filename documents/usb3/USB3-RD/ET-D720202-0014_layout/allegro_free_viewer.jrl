@@ -1,0 +1,111 @@
+\t (00:00:45) allegro_free_viewer 16.5 S006 (v16-5-13S) i86
+\t (00:00:45)     Journal start - Thu Feb 09 16:40:49 2012
+\t (00:00:45)         Host=DHMPC045 User=j-yamaya Pid=4980 CPUs=2
+\t (00:00:45) 
+\d (00:00:45) Database opened: D:/ÅûPROJECTÅû/USB3.0/ÅyuPD720201_202Åz/ReferenceBoard/720202_Add-in/USB3-202-DK0014-A0/ET-D720202-0014_layout/ET-D720202-0014.brd
+\i (00:00:51) zoom in 1 
+\i (00:00:51) setwindow pcb
+\i (00:00:51) zoom in 44.8986 27.0665
+\t (00:00:51) Grids are drawn 0.8000, 0.8000 apart for enhanced viewability.
+\i (00:00:51) trapsize 9085
+\i (00:00:51) zoom in 1 
+\i (00:00:51) setwindow pcb
+\i (00:00:51) zoom in 44.8986 27.0665
+\i (00:00:51) trapsize 4543
+\i (00:00:52) zoom in 1 
+\i (00:00:52) setwindow pcb
+\i (00:00:52) zoom in 44.8986 27.0665
+\t (00:00:52) Grids are drawn 0.2000, 0.2000 apart for enhanced viewability.
+\i (00:00:52) trapsize 2271
+\i (00:00:55) grid toggle 
+\i (00:00:58) setwindow form.vf_vis
+\i (00:00:58) FORM vf_vis 3 all_colorvisible YES 
+\i (00:01:01) setwindow pcb
+\i (00:01:01) assign color 
+\i (00:01:05) setwindow form.mini
+\i (00:01:05) FORM mini color5 1 
+\i (00:01:06) FORM mini color7 1 
+\i (00:01:10) setwindow pcb
+\i (00:01:10) pick grid 58.7539 34.7892
+\t (00:01:10) last pick:  58.7500  34.8000
+\t (00:01:10) Net "3_3V_Dual" assigned color.
+\i (00:01:13) setwindow form.mini
+\i (00:01:13) FORM mini color13 1 
+\i (00:01:14) setwindow pcb
+\i (00:01:14) pick grid 57.8000 32.2453
+\t (00:01:14) last pick:  57.8000  32.2500
+\t (00:01:14) Net "1_05V" assigned color.
+\i (00:01:16) setwindow form.vf_vis
+\i (00:01:16) FORM vf_vis 1 all_colorvisible YES 
+\i (00:01:19) FORM vf_vis 1 all_colorvisible NO 
+\i (00:01:20) FORM vf_vis 2 all_colorvisible YES 
+\i (00:01:22) FORM vf_vis 3 all_colorvisible NO 
+\i (00:01:26) setwindow form.mini
+\i (00:01:26) FORM mini color25 1 
+\i (00:01:28) setwindow pcb
+\i (00:01:28) pick grid 61.0707 30.1102
+\t (00:01:28) last pick:  61.0500  30.1000
+\t (00:01:28) Net "Gnd" assigned color.
+\i (00:01:37) setwindow form.vf_vis
+\i (00:01:37) FORM vf_vis 4 all_colorvisible YES 
+\i (00:01:39) FORM vf_vis 2 all_colorvisible NO 
+\i (00:01:42) FORM vf_vis 4 all_colorvisible NO 
+\i (00:01:43) FORM vf_vis 1 all_colorvisible YES 
+\i (00:01:47) setwindow pcb
+\i (00:01:47) assign color 
+\i (00:01:51) setwindow form.mini
+\i (00:01:51) FORM mini color3 1 
+\i (00:02:13) setwindow form.vf_vis
+\i (00:02:13) FORM vf_vis 4 all_colorvisible YES 
+\i (00:03:45) setwindow pcb
+\i (00:03:45) zoom out 1 
+\i (00:03:45) setwindow pcb
+\i (00:03:45) zoom out 56.8006 20.2525
+\i (00:03:45) trapsize 4543
+\i (00:03:45) zoom out 1 
+\i (00:03:45) setwindow pcb
+\i (00:03:45) zoom out 56.8005 20.2524
+\i (00:03:45) trapsize 9085
+\i (00:03:46) zoom in 1 
+\i (00:03:46) setwindow pcb
+\i (00:03:46) zoom in 56.8006 20.2524
+\i (00:03:46) trapsize 4543
+\i (00:03:46) zoom in 1 
+\i (00:03:46) setwindow pcb
+\i (00:03:46) zoom in 56.8006 20.2524
+\i (00:03:46) trapsize 2271
+\i (00:03:48) roam y 96 
+\i (00:03:48) roam y 96
+\i (00:03:48) roam y 96 
+\i (00:03:48) roam y 96
+\i (00:03:48) roam y 96 
+\i (00:03:48) roam y 96
+\i (00:03:48) roam y 96 
+\i (00:03:48) roam y 96
+\i (00:03:49) roam y -96 
+\i (00:03:49) roam y -96
+\i (00:03:49) roam y -96 
+\i (00:03:49) roam y -96
+\i (00:03:50) roam y -96 
+\i (00:03:50) roam y -96
+\i (00:03:51) roam y 96 
+\i (00:03:51) roam y 96
+\i (00:04:03) setwindow form.vf_vis
+\i (00:04:03) FORM vf_vis 3 all_colorvisible YES 
+\i (00:04:05) FORM vf_vis 1 all_colorvisible NO 
+\i (00:04:06) FORM vf_vis 3 all_colorvisible NO 
+\i (00:04:10) FORM vf_vis 3 all_colorvisible YES 
+\i (00:04:12) FORM vf_vis 4 all_colorvisible NO 
+\i (00:04:17) FORM vf_vis 3 all_colorvisible NO 
+\i (00:04:18) FORM vf_vis 2 all_colorvisible YES 
+\i (00:04:20) FORM vf_vis 1 all_colorvisible YES 
+\i (26:34:04) setwindow pcb
+\i (26:34:04) trapsize 2314
+\i (26:34:16) pick grid 43.5438 4.8649
+\t (26:34:16) last pick:  43.5500  4.8500
+\i (26:34:16) zoom out 1 
+\i (26:34:16) setwindow pcb
+\i (26:34:16) zoom out 46.5056 6.1144
+\i (26:34:16) trapsize 4628
+\i (26:34:24) setwindow form.vf_vis
+\i (26:34:24) FORM vf_vis 1 all_colorvisible
